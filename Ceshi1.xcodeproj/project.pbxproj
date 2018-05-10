@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D75FE8FA20A420B20033EC05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FE8F920A420B20033EC05 /* AppDelegate.m */; };
+		D75FE8FD20A420B20033EC05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FE8FC20A420B20033EC05 /* ViewController.m */; };
+		D75FE90020A420B20033EC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75FE8FE20A420B20033EC05 /* Main.storyboard */; };
+		D75FE90320A420B20033EC05 /* Ceshi1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D75FE90120A420B20033EC05 /* Ceshi1.xcdatamodeld */; };
+		D75FE90520A420B30033EC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75FE90420A420B30033EC05 /* Assets.xcassets */; };
+		D75FE90820A420B30033EC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75FE90620A420B30033EC05 /* LaunchScreen.storyboard */; };
+		D75FE90B20A420B30033EC05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FE90A20A420B30033EC05 /* main.m */; };
+		D75FE91520A420B40033EC05 /* Ceshi1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FE91420A420B40033EC05 /* Ceshi1Tests.m */; };
+		D75FE92020A420B40033EC05 /* Ceshi1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75FE91F20A420B40033EC05 /* Ceshi1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75FE91120A420B30033EC05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75FE8ED20A420B10033EC05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75FE8F420A420B20033EC05;
+			remoteInfo = Ceshi1;
+		};
+		D75FE91C20A420B40033EC05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75FE8ED20A420B10033EC05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75FE8F420A420B20033EC05;
+			remoteInfo = Ceshi1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D75FE8F520A420B20033EC05 /* Ceshi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceshi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75FE8F820A420B20033EC05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D75FE8F920A420B20033EC05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D75FE8FB20A420B20033EC05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D75FE8FC20A420B20033EC05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D75FE8FF20A420B20033EC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D75FE90220A420B20033EC05 /* Ceshi1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ceshi1.xcdatamodel; sourceTree = "<group>"; };
+		D75FE90420A420B30033EC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75FE90720A420B30033EC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D75FE90920A420B30033EC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75FE90A20A420B30033EC05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75FE91020A420B30033EC05 /* Ceshi1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ceshi1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75FE91420A420B40033EC05 /* Ceshi1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ceshi1Tests.m; sourceTree = "<group>"; };
+		D75FE91620A420B40033EC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75FE91B20A420B40033EC05 /* Ceshi1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ceshi1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75FE91F20A420B40033EC05 /* Ceshi1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ceshi1UITests.m; sourceTree = "<group>"; };
+		D75FE92120A420B40033EC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75FE8F220A420B20033EC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE90D20A420B30033EC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE91820A420B40033EC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D75FE8EC20A420B10033EC05 = {
+			isa = PBXGroup;
+			children = (
+				D75FE8F720A420B20033EC05 /* Ceshi1 */,
+				D75FE91320A420B30033EC05 /* Ceshi1Tests */,
+				D75FE91E20A420B40033EC05 /* Ceshi1UITests */,
+				D75FE8F620A420B20033EC05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D75FE8F620A420B20033EC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE8F520A420B20033EC05 /* Ceshi1.app */,
+				D75FE91020A420B30033EC05 /* Ceshi1Tests.xctest */,
+				D75FE91B20A420B40033EC05 /* Ceshi1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75FE8F720A420B20033EC05 /* Ceshi1 */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE8F820A420B20033EC05 /* AppDelegate.h */,
+				D75FE8F920A420B20033EC05 /* AppDelegate.m */,
+				D75FE8FB20A420B20033EC05 /* ViewController.h */,
+				D75FE8FC20A420B20033EC05 /* ViewController.m */,
+				D75FE8FE20A420B20033EC05 /* Main.storyboard */,
+				D75FE90420A420B30033EC05 /* Assets.xcassets */,
+				D75FE90620A420B30033EC05 /* LaunchScreen.storyboard */,
+				D75FE90920A420B30033EC05 /* Info.plist */,
+				D75FE90A20A420B30033EC05 /* main.m */,
+				D75FE90120A420B20033EC05 /* Ceshi1.xcdatamodeld */,
+			);
+			path = Ceshi1;
+			sourceTree = "<group>";
+		};
+		D75FE91320A420B30033EC05 /* Ceshi1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE91420A420B40033EC05 /* Ceshi1Tests.m */,
+				D75FE91620A420B40033EC05 /* Info.plist */,
+			);
+			path = Ceshi1Tests;
+			sourceTree = "<group>";
+		};
+		D75FE91E20A420B40033EC05 /* Ceshi1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE91F20A420B40033EC05 /* Ceshi1UITests.m */,
+				D75FE92120A420B40033EC05 /* Info.plist */,
+			);
+			path = Ceshi1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75FE8F420A420B20033EC05 /* Ceshi1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75FE92420A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1" */;
+			buildPhases = (
+				D75FE8F120A420B20033EC05 /* Sources */,
+				D75FE8F220A420B20033EC05 /* Frameworks */,
+				D75FE8F320A420B20033EC05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ceshi1;
+			productName = Ceshi1;
+			productReference = D75FE8F520A420B20033EC05 /* Ceshi1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D75FE90F20A420B30033EC05 /* Ceshi1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75FE92720A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1Tests" */;
+			buildPhases = (
+				D75FE90C20A420B30033EC05 /* Sources */,
+				D75FE90D20A420B30033EC05 /* Frameworks */,
+				D75FE90E20A420B30033EC05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75FE91220A420B30033EC05 /* PBXTargetDependency */,
+			);
+			name = Ceshi1Tests;
+			productName = Ceshi1Tests;
+			productReference = D75FE91020A420B30033EC05 /* Ceshi1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D75FE91A20A420B40033EC05 /* Ceshi1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75FE92A20A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1UITests" */;
+			buildPhases = (
+				D75FE91720A420B40033EC05 /* Sources */,
+				D75FE91820A420B40033EC05 /* Frameworks */,
+				D75FE91920A420B40033EC05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75FE91D20A420B40033EC05 /* PBXTargetDependency */,
+			);
+			name = Ceshi1UITests;
+			productName = Ceshi1UITests;
+			productReference = D75FE91B20A420B40033EC05 /* Ceshi1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75FE8ED20A420B10033EC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lhp;
+				TargetAttributes = {
+					D75FE8F420A420B20033EC05 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D75FE90F20A420B30033EC05 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D75FE8F420A420B20033EC05;
+					};
+					D75FE91A20A420B40033EC05 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D75FE8F420A420B20033EC05;
+					};
+				};
+			};
+			buildConfigurationList = D75FE8F020A420B10033EC05 /* Build configuration list for PBXProject "Ceshi1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75FE8EC20A420B10033EC05;
+			productRefGroup = D75FE8F620A420B20033EC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75FE8F420A420B20033EC05 /* Ceshi1 */,
+				D75FE90F20A420B30033EC05 /* Ceshi1Tests */,
+				D75FE91A20A420B40033EC05 /* Ceshi1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75FE8F320A420B20033EC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE90820A420B30033EC05 /* LaunchScreen.storyboard in Resources */,
+				D75FE90520A420B30033EC05 /* Assets.xcassets in Resources */,
+				D75FE90020A420B20033EC05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE90E20A420B30033EC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE91920A420B40033EC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75FE8F120A420B20033EC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE8FD20A420B20033EC05 /* ViewController.m in Sources */,
+				D75FE8FA20A420B20033EC05 /* AppDelegate.m in Sources */,
+				D75FE90B20A420B30033EC05 /* main.m in Sources */,
+				D75FE90320A420B20033EC05 /* Ceshi1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE90C20A420B30033EC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE91520A420B40033EC05 /* Ceshi1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75FE91720A420B40033EC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE92020A420B40033EC05 /* Ceshi1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D75FE91220A420B30033EC05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75FE8F420A420B20033EC05 /* Ceshi1 */;
+			targetProxy = D75FE91120A420B30033EC05 /* PBXContainerItemProxy */;
+		};
+		D75FE91D20A420B40033EC05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75FE8F420A420B20033EC05 /* Ceshi1 */;
+			targetProxy = D75FE91C20A420B40033EC05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D75FE8FE20A420B20033EC05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75FE8FF20A420B20033EC05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D75FE90620A420B30033EC05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75FE90720A420B30033EC05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75FE92220A420B40033EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D75FE92320A420B40033EC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D75FE92520A420B40033EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D75FE92620A420B40033EC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D75FE92820A420B40033EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceshi1.app/Ceshi1";
+			};
+			name = Debug;
+		};
+		D75FE92920A420B40033EC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceshi1.app/Ceshi1";
+			};
+			name = Release;
+		};
+		D75FE92B20A420B40033EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceshi1;
+			};
+			name = Debug;
+		};
+		D75FE92C20A420B40033EC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87LG4Z24W4;
+				INFOPLIST_FILE = Ceshi1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.Ceshi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceshi1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75FE8F020A420B10033EC05 /* Build configuration list for PBXProject "Ceshi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75FE92220A420B40033EC05 /* Debug */,
+				D75FE92320A420B40033EC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75FE92420A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75FE92520A420B40033EC05 /* Debug */,
+				D75FE92620A420B40033EC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75FE92720A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75FE92820A420B40033EC05 /* Debug */,
+				D75FE92920A420B40033EC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75FE92A20A420B40033EC05 /* Build configuration list for PBXNativeTarget "Ceshi1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75FE92B20A420B40033EC05 /* Debug */,
+				D75FE92C20A420B40033EC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D75FE90120A420B20033EC05 /* Ceshi1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D75FE90220A420B20033EC05 /* Ceshi1.xcdatamodel */,
+			);
+			currentVersion = D75FE90220A420B20033EC05 /* Ceshi1.xcdatamodel */;
+			path = Ceshi1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D75FE8ED20A420B10033EC05 /* Project object */;
+}
